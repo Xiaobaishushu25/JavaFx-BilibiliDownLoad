@@ -1,0 +1,35 @@
+.Xbss-label-url{
+    -fx-text-fill:  #00CED1;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+}
+.Xbss-label-url:hover{
+    /* 上 右 下 左*/
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #00CED1;
+}
+.Xbss-check-box{
+    -fx-background-color: #00FFFF;
+    -fx-background-radius: 10px;
+    -fx-border-width: 1;
+    -fx-border-color: #7CFC00;
+    -fx-font-size: 15;
+    -fx-border-radius: 10px;
+    -fx-padding: 0px 10px 0px 10px;
+    -fx-cursor:hand;
+}
+.Xbss-check-box:selected {
+    -fx-background-color: #FFC0CB50;
+    -fx-text-fill: red;
+    -fx-border-radius: 10;
+    -fx-font-size: 20;
+    background-clip: padding-box;
+    -fx-background-radius: 10;
+}
+.Xbss-vbox{
+    -fx-background-color:#FFF68F;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+}
